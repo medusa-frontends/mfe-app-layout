@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es6",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "allowJs": true
+  },
+  "files": ["src/exposes.tsx"]
+}

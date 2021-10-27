@@ -1,0 +1,24 @@
+{
+  "name": "mfe_app_layout",
+  "filename": "remoteEntry.js",
+  "shared": {
+    "react": {
+      "requiredVersion": "^17.0.2",
+      "eager": true,
+      "singleton": true
+    },
+    "react-dom": {
+      "requiredVersion": "^17.0.2",
+      "eager": true,
+      "singleton": true
+    }
+  },
+  "exposes": {
+    ".": "./src/exposes"
+  },
+  "remotes": {
+    "@mfe/host": "mfe_host@http://localhost:3000/remoteEntry.js",
+    "@mfe/app-layout": "mfe_app_layout@http://localhost:3001/remoteEntry.js",
+    "@mfe/app-home": "mfe_app_home@http://localhost:3002/remoteEntry.js"
+  }
+}
