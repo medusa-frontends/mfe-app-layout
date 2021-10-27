@@ -1,3 +1,6 @@
 node_modules
 dist
 mfe-app.json
+
+.idea
+.DS_Store
