@@ -1,13 +1,5 @@
 const path = require('path')
-const { ModuleFederationPlugin } = require('webpack').container
-
-class MFEPlugin extends ModuleFederationPlugin {
-  constructor() {
-    // eslint-disable-next-line import/no-unresolved
-    const pluginOptions = require('./.mfe/plugin-options.json')
-    super(pluginOptions)
-  }
-}
+const { MFEPlugin } = require('@mfe/webpack-plugin')
 
 const env = {
   production: process.env.NODE_ENV === 'production',
@@ -24,7 +16,9 @@ const config = {
     host: 'localhost',
     port: 3001,
   },
-  plugins: [new MFEPlugin()],
+  plugins: [
+    new MFEPlugin(),
+  ],
   module: {
     rules: [
       {
