@@ -27,7 +27,7 @@
     "webpack-dev-server": "^4.3.1"
   },
   "dependencies": {
-    "@medusa/webpack-plugin": "../../mfe-webpack-plugin",
+    "@medusa/webpack-plugin": "../../medusa-webpack-plugin",
     "@types/react": "^17.0.32",
     "@types/react-dom": "^17.0.10",
     "react": "^17.0.2",
