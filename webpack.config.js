@@ -1,5 +1,5 @@
 const path = require('path')
-const { MFEPlugin } = require('@mfe/webpack-plugin')
+const { MedusaPlugin } = require('@medusa/webpack-plugin')
 
 const env = {
   production: process.env.NODE_ENV === 'production',
@@ -17,7 +17,7 @@ const config = {
     port: 3001,
   },
   plugins: [
-    new MFEPlugin(),
+    new MedusaPlugin(),
   ],
   module: {
     rules: [
