@@ -4,9 +4,9 @@
   "description": "Layout MFE",
   "license": "UNLICENSED",
   "scripts": {
-    "mfe:start": "webpack serve",
-    "mfe:build": "webpack --mode=production --node-env=production",
-    "mfe:build:prod": "webpack --mode=production --node-env=production",
+    "medusa:start": "webpack serve",
+    "medusa:build": "webpack --mode=production --node-env=production",
+    "medusa:build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch"
   },
   "devDependencies": {
