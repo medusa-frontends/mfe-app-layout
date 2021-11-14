@@ -1,7 +1,7 @@
 node_modules
 dist
 .medusa
-mfe-app.json
+app.medusa.json
 
 .idea
 .DS_Store
